@@ -19,7 +19,7 @@ public class ParkingSpotController {
 
     final ParkingSpotService parkingSpotService;
 
-    public ParkingSpotService(ParkingSpotService parkingSpotService){
+    public ParkingSpotController(ParkingSpotService parkingSpotService){
         this.parkingSpotService = parkingSpotService;
     }
 
